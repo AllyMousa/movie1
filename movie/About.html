@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .navbar {
+            background-color: #343a40;
+        }
+
+        .card {
+            transition: transform 0.3s;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fas fa-film me-2"></i>Movie Hub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home"><i class="fas fa-home me-1"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#movies"><i class="fas fa-video me-1"></i>Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="movie.html"><i class="fas fa-child me-1"></i>Cartoons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="movie.html"><i class="fas fa-tv me-1"></i>Series</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="movie.html"><i class="fas fa-clock me-1"></i>Recent</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="movie.html"><i class="fas fa-fire me-1"></i>Popular</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html"><i class="fas fa-envelope me-1"></i>Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html"><i class="fas fa-info-circle me-1"></i>About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Services.html"><i class="fas fa-cogs me-1"></i>Our Services</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container my-5">
+        <h1 class="mb-4 text-center" id="about">About Movie Hub</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <p class="lead text-center mb-4">Welcome to Movie Hub, your ultimate destination for all things cinema!</p>
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h2 class="card-title"><i class="fas fa-film me-2"></i>Our Mission</h2>
+                        <p class="card-text">At Movie Hub, we're passionate about bringing the magic of movies to everyone. Our mission is to provide a comprehensive platform where movie enthusiasts can explore, discover, and enjoy a vast collection of films across various genres.</p>
+                    </div>
+                </div>
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h2 class="card-title"><i class="fas fa-users me-2"></i>Who We Are</h2>
+                        <p class="card-text">We're a team of dedicated movie lovers who believe in the power of storytelling through film. Our diverse backgrounds and expertise in cinema help us curate an exceptional movie-watching experience for our users.</p>
+                    </div>
+                </div>
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h2 class="card-title"><i class="fas fa-star me-2"></i>What We Offer</h2>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><i class="fas fa-check me-2"></i>A vast library of movies, cartoons, and TV series</li>
+                            <li class="list-group-item"><i class="fas fa-check me-2"></i>Up-to-date information on recent releases</li>
+                            <li class="list-group-item"><i class="fas fa-check me-2"></i>Curated lists of popular and trending content</li>
+                            <li class="list-group-item"><i class="fas fa-check me-2"></i>User-friendly interface for easy navigation</li>
+                            <li class="list-group-item"><i class="fas fa-check me-2"></i>Personalized recommendations based on your preferences</li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="text-center">Join us on this cinematic journey and discover the world of movies like never before!</p>
+            </div>
+        </div>
+    </main>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
